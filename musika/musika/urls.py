@@ -27,6 +27,8 @@ urlpatterns = [
    
     path('items/', include('item.urls')),
 
+    path('inbox/', include('chat.urls')),
+
     path('dashboard/', include('dashboard.urls')),
 
     path('admin/', admin.site.urls),
